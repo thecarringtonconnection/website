@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "The Carrington Connection"
 # Main Menu
 [[menu.main]]
 name = "Home"
