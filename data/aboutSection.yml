@@ -2,7 +2,7 @@
 enable: true
 topTitle: About
 title: >
-  ## About me
+  ## Mike Carrington
 
   Enjoy team diversity and increase their networks among others people in
   various fields by provided.
@@ -13,8 +13,8 @@ content: >
   to solve the design problem and find easy and better solutions to solve it. I always
   try my best to make good user interface with the best user experience. I have been
   working as a Visual designer from.
-button1Name: Hire me
-button2Name: Download CV
+button1Name: Contact Me
+button2Name: Services & Fees
 button1Target: contact
 button2Target: contact
 image: images/about/about-img.jpg

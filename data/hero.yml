@@ -1,12 +1,11 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Welcome to The Carrington Connection
 content: >
-  # I am here for your personal business
+  ### A confidential LGBTQIA+ counselling service in South London offering sessions in-person and online
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
-buttonName: Contact me
+  Supporting LGBTQIA+ adults on their journey to positive mental health
+buttonName: Contact
 buttonURL: contact
 image: images/hero/2960351.jpg
 videoThumb: images/hero/popup-thumb.png

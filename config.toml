@@ -54,17 +54,17 @@ weight = 4
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Portio 2020"
+copyright = "All right reserved © The Carrington Connection 2021"
 footerLogo = "images/contact/widget-logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = "images/site-navigation/logo.png"
+logo = "images/site-navigation/tcc_logo_transparent.svg"
 
 [params.address]
 address = "23 Khan Niketon, Grand Street, NYK."
-email = "hello@example.com"
-openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(448) 833 5272 332"
+email = "mike@thecarringtonconnection.co.uk"
+openingHours = "Open from 8am to 9pm (Monday to Friday)"
+phone = "07925 844 622"
 
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
