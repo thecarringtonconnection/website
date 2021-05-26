@@ -2,14 +2,14 @@
 enable: true
 topTitle: My Resume
 title: >
-  ## My Expertises
+  ## My Experience
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
 
 
   Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
-tab1Name: Education
-tab2Name: Experiences
+tab1Name: Qualifications
+tab2Name: Experience
 tab1Target: education
 tab2Target: experience
 
@@ -37,22 +37,22 @@ education:
 
 experience:
   - content: >
-      #### Umbrella co. 
+      #### Umbrella co.
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2016-Present
   - content: >
-      #### Aperture Science 
+      #### Aperture Science
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2010-2016
   - content: >
-      #### ACME Inc. 
+      #### ACME Inc.
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2005-2010
   - content: >
-      #### LexCorp 
+      #### LexCorp
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2001-2005
