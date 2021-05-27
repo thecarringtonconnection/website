@@ -4,10 +4,7 @@ topTitle: My Resume
 title: >
   ## My Experience
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-
-
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
+  I completed my counselling training at The Bedfordshire Centre for Therapeutic Stuides, commencing in 2017
 tab1Name: Qualifications
 tab2Name: Experience
 tab1Target: education
@@ -15,25 +12,33 @@ tab2Target: experience
 
 education:
   - content: >
-      #### Master in Arts
+      #### Diploma in Therapeutic Counselling
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: 2017-2021
   - content: >
-      #### Master in Arts
+      #### Cognitive Behavioural Therapy (CBT) Diploma
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: 2020
   - content: >
-      #### Master in Arts
+      #### Online and Telephone Counselling Certification
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      This 80-hour training course provided me with a strong foundation for working with clients via telephone and online.
+    time: 2020
   - content: >
-      #### Master in Arts
+      #### Continuing Professional Development (CPD)
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      I regularly engage in additional training to support my professional development.
+
+
+      Some of the CPD courses I have recently completed can be found, below:
+
+
+       * Enhancing the Therapeutic Relationship with GSRD Clients
+       * Goals in Therapy: Actualising Our Deepest Directions
+       * Sexuality and Mental Health
+    time: Ongoing
 
 experience:
   - content: >
