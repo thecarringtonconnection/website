@@ -41,7 +41,7 @@ weight = 1
 [[menu.sitemap]]
 name = "Frequently Asked Questions"
 url = "#"
-weight = 2
+weight = 4
 [[menu.sitemap]]
 name = "Privacy Policy"
 url = "#"
@@ -49,7 +49,7 @@ weight = 3
 [[menu.sitemap]]
 name = "Latest Article"
 url = "#"
-weight = 4
+weight = 2
 
 [params]
 blogPageURL = "blog"
@@ -61,7 +61,8 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/tcc_logo_transparent.svg"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
+address = "Lewisham, South East London"
+address2 = "Clapham, South West London"
 email = "mike@thecarringtonconnection.co.uk"
 openingHours = "Open from 8am to 9pm (Monday to Friday)"
 phone = "07925 844 622"

@@ -2,9 +2,8 @@
 enable: true
 topTitle: My Resume
 title: >
-  ## My Experience
+  ## Qualifications and Experience
 
-  I completed my counselling training at The Bedfordshire Centre for Therapeutic Stuides, commencing in 2017
 tab1Name: Qualifications
 tab2Name: Experience
 tab1Target: education
@@ -14,7 +13,12 @@ education:
   - content: >
       #### Diploma in Therapeutic Counselling
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      I completed four years of counselling training at The Bedfordshire Centre for Therapeutic Stuides, where I achieved the following qualifications:
+
+
+       * Level 4 Diploma in Therapeutic Counselling
+       * Level 3 Certificate in Counselling Studies
+       * Level 2 Certificate in Counselling Skills
     time: 2017-2021
   - content: >
       #### Cognitive Behavioural Therapy (CBT) Diploma
@@ -32,7 +36,7 @@ education:
       I regularly engage in additional training to support my professional development.
 
 
-      Some of the CPD courses I have recently completed can be found, below:
+      Examples of CPD courses I have recently completed can be found, below:
 
 
        * Enhancing the Therapeutic Relationship with GSRD Clients

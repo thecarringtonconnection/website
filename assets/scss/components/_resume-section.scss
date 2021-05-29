@@ -2,6 +2,10 @@
     position: relative;
     margin-bottom: 100px;
     padding: 150px 0;
+    ul {
+      font-size: 15px;
+      color: $secondary;
+    }
     @include desktop{
         margin-bottom: 40px;
         padding: 100px 0;
