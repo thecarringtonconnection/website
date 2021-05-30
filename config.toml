@@ -64,7 +64,8 @@ logo = "images/site-navigation/tcc_logo_transparent.svg"
 address = "Lewisham, South East London"
 address2 = "Clapham, South West London"
 email = "mike@thecarringtonconnection.co.uk"
-openingHours = "Open from 8am to 9pm (Monday to Friday)"
+openingHours = "Open from 8am to 9pm"
+openingHours2 = "(Monday to Friday)"
 phone = "07925 844 622"
 
 [params.map]
