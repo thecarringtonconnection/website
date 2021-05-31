@@ -1,15 +1,15 @@
 {{ with .Site.Data.feesSection }}
 {{ if .enable }}
-<section class="section case-details" id="fees">
-  <div class="svg-img">
-    <img src="{{ "images/hero/figure-svg.svg" | absURL }}" alt="" />
+<section class="section fees" id="fees">
+  <div class="fees-svg-img">
+    <img src="images/hero/figure-svg.svg" alt="figure-svg">
   </div>
   <div class="animate-shape">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
       <defs>
         <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
-          <stop offset="0" stop-color="#f1f6f9" />
-          <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+          <stop offset="0" stop-color="#ece9f4" />
+          <stop offset="1" stop-color="#ece9f4" stop-opacity="0" />
         </linearGradient>
       </defs>
       <g data-name="blob-shape (3)">
@@ -29,28 +29,14 @@
           {{ .title | markdownify }}
         </div>
         <p>
-          {{ .Params.shortDescription }}
+          {{ .shortDescription }}
         </p>
-        <div class="case-details-info">
-          <div class="case-details-info-item">
-            <h5 class="text-light">Client</h5>
-            <p>{{ .Params.client }}</p>
-          </div>
-          <div class="case-details-info-item">
-            <h5>Service</h5>
-            <p>{{ .Params.service }}</p>
-          </div>
-          <div class="case-details-info-item">
-            <h5>Date</h5>
-            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
-          </div>
-        </div>
         <div class="row mb-5">
           <div class="col-lg-6">
             <div class="case-details-service">
               <h3>Challenge</h3>
               <p>
-                {{ .Params.challenge }}
+                {{ .challenge }}
               </p>
             </div>
           </div>
@@ -58,13 +44,25 @@
             <div class="case-details-service">
               <h3>Solution</h3>
               <p>
-                {{ .Params.solution }}
+                {{ .solution }}
               </p>
             </div>
           </div>
         </div>
-
-        {{ .content | markdownify}}
+        <div class="case-details-info">
+          <div class="case-details-info-item">
+            <h5 class="text-light">Client</h5>
+            <p>{{ .client }}</p>
+          </div>
+          <div class="case-details-info-item">
+            <h5>Service</h5>
+            <p>{{ .service }}</p>
+          </div>
+          <div class="case-details-info-item">
+            <h5>Date</h5>
+            <p>{{ .date }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>

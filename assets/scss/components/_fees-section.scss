@@ -1,0 +1,13 @@
+.fees {
+  padding: 100px 0 0px 0;
+  .fees-svg-img {
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    animation: move_top 5s infinite linear;
+    @include desktop {
+      display: none;
+    }
+  }
+
+}
