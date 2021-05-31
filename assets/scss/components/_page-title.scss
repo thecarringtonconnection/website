@@ -52,11 +52,11 @@
         padding: 0;
         &-item {
             a {
-                color: $secondary;
+                color: $primary;
                 text-decoration: none;
             }
             &.active {
-                color: $secondary;
+                color: $primary;
             }
         }
     }

@@ -1,13 +1,41 @@
 .fees {
+  position: relative;
   padding: 100px 0 0px 0;
   .fees-svg-img {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: -7%;
     animation: move_top 5s infinite linear;
     @include desktop {
       display: none;
     }
   }
-
+  .animate-shape-fees {
+    position: absolute;
+    top: 30%;
+    right: 4%;
+    height: 300px;
+    width: 300px;
+    svg {
+      width: 100%;
+    }
+    @include desktop {
+      display: none;
+    }
+  }
+  .animate-pattern-fees {
+    position: absolute;
+    top: 45%;
+    right: 12%;
+    height: 100px;
+    width: 100px;
+    animation: move_top 3s infinite linear;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    @include desktop {
+      display: none;
+    }
+  }
 }
