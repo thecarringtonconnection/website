@@ -29,39 +29,57 @@
           {{ .title | markdownify }}
         </div>
         <p>
-          {{ .shortDescription }}
+          {{ .serviceDescription }}
+        </p>
+        <br />
+        <p>
+          {{ .lgbtCounsellingDescription }}
+        </p>
+        <br />
+        <p>
+          {{ .experienceDescription }}
         </p>
         <br />
         <div class="row mb-5">
           <div class="col-lg-6">
             <div class="case-details-service">
-              <h3>Challenge</h3>
               <p>
-                {{ .challenge }}
+                {{ .issuesListA }}
               </p>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="case-details-service">
-              <h3>Solution</h3>
               <p>
-                {{ .solution }}
+                {{ .issuesListB }}
               </p>
             </div>
           </div>
         </div>
-        <div class="case-details-info">
-          <div class="case-details-info-item">
-            <h5 class="text-light">Client</h5>
-            <p>{{ .client }}</p>
+        <div class="fees-info">
+          <div class="fee-details-info-item">
+            <h5 class="table-header">Session Type</h5>
+            <p class="fees-white-text">{{ .inPerson }}</p><br />
+            <p class="fees-white-text">{{ .telephone }}</p><br />
+            <p class="fees-white-text">{{ .online }}</p>
           </div>
-          <div class="case-details-info-item">
-            <h5>Service</h5>
-            <p>{{ .service }}</p>
+          <div class="fee-details-info-item">
+            <h5 class="table-header">Fee</h5>
+            <p class="fees-white-text">{{ .inPersonFee }}</p><br />
+            <p class="fees-white-text">{{ .telephoneFee }}</p><br />
+            <p class="fees-white-text">{{ .onlineFee }}</p>
           </div>
-          <div class="case-details-info-item">
-            <h5>Date</h5>
-            <p>{{ .date }}</p>
+          <div class="fee-details-info-item">
+            <h5 class="table-header">Duration</h5>
+            <p class="fees-white-text">{{ .sessionLength }}</p><br />
+            <p class="fees-white-text">{{ .sessionLength }}</p><br />
+            <p class="fees-white-text">{{ .sessionLength }}</p>
+          </div>
+          <div class="fee-details-info-item">
+            <h5 class="table-header">Frequency</h5>
+            <p class="fees-white-text">{{ .sessionFrequency }}</p><br />
+            <p class="fees-white-text">{{ .sessionFrequency }}</p><br />
+            <p class="fees-white-text">{{ .sessionFrequency }}</p>
           </div>
         </div>
       </div>

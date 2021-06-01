@@ -25,7 +25,7 @@
   }
   .animate-pattern-fees {
     position: absolute;
-    top: 45%;
+    top: 40%;
     right: 12%;
     height: 100px;
     width: 100px;
@@ -36,6 +36,102 @@
     }
     @include desktop {
       display: none;
+    }
+  }
+  &-info {
+    display: flex;
+    justify-content: space-around;
+    background: $primary;
+    border-radius: 20px;
+    padding: 65px 0;
+    margin: 70px 0 80px 0;
+    @include mobile {
+      flex-direction: column;
+      padding: 30px 0;
+    }
+    .fee-details-info-item {
+      position: relative;
+      &:not(:last-child) {
+        &::before {
+          position: absolute;
+
+          width: 1px;
+          height: 100%;
+          top: 0;
+          right: -80px;
+          background: rgba($color: $white, $alpha: 0.1);
+          @include desktop {
+            right: -45px;
+          }
+          @include tablet {
+            right: -15px;
+          }
+          @include mobile {
+            display: none;
+          }
+        }
+        @include mobile {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    h5.table-header {
+      color: $secondary;
+    }
+    p {
+      margin: 0;
+    }
+    p.fees-white-text {
+      color: #fff;
+    }
+  }
+  &-thumb {
+    border-radius: 30px;
+    overflow: hidden;
+    img {
+      height: 100%;
+      max-width: 100%;
+      border-radius: 20px;
+    }
+  }
+  &-nav {
+    .previous,
+    .next {
+      .icon {
+        line-height: 0;
+      }
+      .content {
+        span {
+          display: block;
+        }
+        h5 {
+          font-size: 20px;
+          margin: 0;
+        }
+      }
+    }
+
+    .social {
+      @include mobile {
+        display: none;
+      }
+      ul {
+        li {
+          list-style: none;
+          display: inline-block;
+          a {
+            color: $body-color;
+            display: block;
+            transition: all 0.3s ease;
+            &:hover {
+              color: $primary;
+            }
+          }
+          &:not(:last-child) {
+            margin-right: 25px;
+          }
+        }
+      }
     }
   }
 }
