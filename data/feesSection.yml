@@ -9,28 +9,39 @@ inPerson: In-Person
 online: Online (Zoom)
 telephone: Telephone
 sessionFrequency: Weekly or Fortnightly
+
 title: >
   ## Services & Fees
+
 serviceDescription: >
   I offer in-person and online counselling sessions to individuals aged 18 and over. I provide a
   safe, confidential, and non-judgemental space in which you can explore your thoughts, feelings
   and concerns, helping you to understand more about yourself and your relationships with others.
+
 lgbtCounsellingDescription: >
   As a gay man and LGBTQ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
   You may be interested in coming for counselling to talk in confidence about your sexuality or
   gender identity. Or you may want to explore other issues and feel more comfortable talking to a
+
   counsellor who identifies as LGBTQ.
 experienceDescription: >
   I have experience of supporting clients with the following issues:
+
 feeDescription: >
   The session fee is £50, and sessions are 50 minutes in length. You can choose for us to meet either weekly or fortnightly.
-issuesListA: >
-  I completed four years of counselling training at The Bedfordshire Centre for Therapeutic Stuides, where I achieved the following qualifications:
 
-    * Level 4 Diploma in Therapeutic Counselling
-    * Level 3 Certificate in Counselling Studies
-    * Level 2 Certificate in Counselling Skills
+issuesListA: >
+ List A:
+
+   * Sex and Sexuality
+   * Gender identity
+   * Relationship difficulties
+   * Level 2 Certificate in Counselling Skills
+
 issuesListB: >
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
-  vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+ List B:
+
+   * Sex and Sexuality
+   * Gender identity
+   * Relationship difficulties
+   * Level 2 Certificate in Counselling Skills
