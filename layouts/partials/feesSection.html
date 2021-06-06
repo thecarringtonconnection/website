@@ -23,66 +23,45 @@
   </div>
   <div class="container">
     <div class="row mb-5">
-      <div class="col-lg-10 offset-lg-1 text-center">
+      <div class="col-lg-10 offset-lg-1 text-justify">
         <div class="portfolio__header mb-5">
           <span class="top-title">{{ .topTitle }}</span>
           {{ .title | markdownify }}
+          {{ .serviceInfo | markdownify }}
         </div>
-        <p>
-          {{ .serviceDescription }}
-        </p>
-        <br />
-        <p>
-          {{ .lgbtCounsellingDescription }}
-        </p>
-        <br />
-        <p>
-          {{ .experienceDescription }}
-        </p>
-        <br />
-        <div class="row mb-5">
-          <div class="col-lg-6">
-            <div class="case-details-service">
-              <p>
-                {{ .issuesListA | markdownify }}
-              </p>
+          <div class="row mb-5 text-center">
+            <div class="col-lg-6">
+              <div class="fees-details-service">
+                  {{ .listA  | markdownify }}
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="fees-details-service">
+                  {{ .listB | markdownify }}
+              </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="case-details-service">
-              <p>
-                {{ .issuesListB | markdownify }}
-              </p>
-            </div>
+          <div class="portfolio__header mb-5">
+            {{ .feesTitle | markdownify}}
           </div>
-        </div>
-        <div class="fees-info">
+        <div class="fees-info text-center">
           <div class="fee-details-info-item">
-            <h5 class="table-header">Session Type</h5>
-            <p class="fees-white-text">{{ .inPerson }}</p><br />
-            <p class="fees-white-text">{{ .telephone }}</p><br />
-            <p class="fees-white-text">{{ .online }}</p>
+            <h5 class="table-header">Individual Counselling Session</h5>
+            <p class="fees-white-text">In-person / Online / Telephone</p>
           </div>
           <div class="fee-details-info-item">
             <h5 class="table-header">Fee</h5>
-            <p class="fees-white-text">{{ .inPersonFee }}</p><br />
-            <p class="fees-white-text">{{ .telephoneFee }}</p><br />
-            <p class="fees-white-text">{{ .onlineFee }}</p>
+            <p class="fees-white-text">£50</p>
           </div>
           <div class="fee-details-info-item">
             <h5 class="table-header">Duration</h5>
-            <p class="fees-white-text">{{ .sessionLength }}</p><br />
-            <p class="fees-white-text">{{ .sessionLength }}</p><br />
-            <p class="fees-white-text">{{ .sessionLength }}</p>
-          </div>
-          <div class="fee-details-info-item">
-            <h5 class="table-header">Frequency</h5>
-            <p class="fees-white-text">{{ .sessionFrequency }}</p><br />
-            <p class="fees-white-text">{{ .sessionFrequency }}</p><br />
-            <p class="fees-white-text">{{ .sessionFrequency }}</p>
+            <p class="fees-white-text">50 minutes</p>
           </div>
         </div>
-      </div>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor.</p><br />
+        <div>
+          {{ .consultationInfo | markdownify }}
+        </div>
     </div>
   </section>
   {{ end }}

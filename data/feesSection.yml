@@ -1,10 +1,18 @@
 ---
 enable: true
 topTitle: Services & Fees
-inPersonFee: £50
-telephoneFee: £50
-onlineFee: £50
-sessionLength: 50 minutes
+feesTitle: >
+ #### Fees
+consultationTitle: Initial Consultation
+feeInfo: The fee for each counselling session is £50
+durationInfo: Sessions last 50 minutes and can be carried out in-person, online or over the phone
+consultationInfo: >
+ #### Initial Consultation
+
+ I also offer a free initial consultation before clients start counselling. This helps to
+ identify whether counselling is right for you and gives you an opportunity to ask me any
+ questions you might have about the service or the counselling process. A consultation
+ lasts 20 minutes and can be carried out online or over the phone.
 inPerson: In-Person
 online: Online (Zoom)
 telephone: Telephone
@@ -13,35 +21,70 @@ sessionFrequency: Weekly or Fortnightly
 title: >
   ## Services & Fees
 
-serviceDescription: >
-  I offer in-person and online counselling sessions to individuals aged 18 and over. I provide a
-  safe, confidential, and non-judgemental space in which you can explore your thoughts, feelings
-  and concerns, helping you to understand more about yourself and your relationships with others.
+serviceInfo: >
+  I offer in-person, online and telephone counselling sessions to individuals aged 18 and over.
 
-lgbtCounsellingDescription: >
-  As a gay man and LGBTQ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
-  You may be interested in coming for counselling to talk in confidence about your sexuality or
-  gender identity. Or you may want to explore other issues and feel more comfortable talking to a
 
-  counsellor who identifies as LGBTQ.
-experienceDescription: >
-  I have experience of supporting clients with the following issues:
+  As a gay man and LGBTQIA+ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
+  You may be interested in coming for counselling to talk in confidence about issues relating to your
+  sexuality or gender identity. Or you may want to explore other issues and feel more comfortable
+  talking to a counsellor who identifies as LGBTQIA+.
+
+
+  I provide a safe, confidential, and non-judgemental space in which you can explore
+  your thoughts, feelings and concerns, helping you to understand more about yourself, your
+  situation and your relationships with others.
+
+
+  My counselling experience includes supporting clients with the following issues:
 
 feeDescription: >
   The session fee is £50, and sessions are 50 minutes in length. You can choose for us to meet either weekly or fortnightly.
 
-issuesListA: >
- List A:
+listA: >
+  Anxiety
 
-   * Sex and Sexuality
-   * Gender identity
-   * Relationship difficulties
-   * Level 2 Certificate in Counselling Skills
 
-issuesListB: >
- List B:
+  Bereavement
 
-   * Sex and Sexuality
-   * Gender identity
-   * Relationship difficulties
-   * Level 2 Certificate in Counselling Skills
+
+  Depression
+
+
+  Family issues
+
+
+  Gender identity
+
+
+  Low self-confidence
+
+
+  Low self-esteem
+
+
+  OCD
+
+listB: >
+  Perfectionism
+
+
+  Relationship difficulties
+
+
+  Self-harm
+
+
+  Sex and Sexuality
+
+
+  Sexual abuse
+
+
+  Stress
+
+
+  Suicidal thoughts
+
+
+  Trauma
