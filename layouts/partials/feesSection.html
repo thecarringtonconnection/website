@@ -31,12 +31,12 @@
         </div>
           <div class="row mb-5 text-center">
             <div class="col-lg-6">
-              <div class="fees-details-service">
+              <div class="fees-details-service text-dark">
                   {{ .listA  | markdownify }}
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="fees-details-service">
+              <div class="fees-details-service text-dark">
                   {{ .listB | markdownify }}
               </div>
             </div>
@@ -44,25 +44,38 @@
           <div class="portfolio__header mb-5">
             {{ .feesTitle | markdownify}}
           </div>
+        <div>
         <div class="fees-info text-center">
           <div class="fee-details-info-item">
             <h5 class="table-header">Individual Counselling Session</h5>
-            <p class="fees-white-text">In-person / Online / Telephone</p>
+            <p class="fees-white-text">{{ .sessionType }}</p>
           </div>
           <div class="fee-details-info-item">
             <h5 class="table-header">Fee</h5>
-            <p class="fees-white-text">£50</p>
+            <p class="fees-white-text">{{ .fee }}</p>
           </div>
           <div class="fee-details-info-item">
             <h5 class="table-header">Duration</h5>
-            <p class="fees-white-text">50 minutes</p>
+            <p class="fees-white-text">{{ .duration }}</p>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor.</p><br />
+          <a class="btn btn-secondary mr-3 btn-zoom"
+              href="{{ .button1Target | absURL }}">{{ .button1Name }}</a>
+        </div>
+        <div>
+          <br />
+          <br />
+          {{ .feeInfo | markdownify}}
+          <br />
+          <br />
+          <br />
+        </div>
         <div>
           {{ .consultationInfo | markdownify }}
         </div>
     </div>
+  </div>
+  </div>
   </section>
   {{ end }}
   {{ end }}

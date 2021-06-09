@@ -2,27 +2,25 @@
 enable: true
 topTitle: Services & Fees
 feesTitle: >
- #### Fees
-consultationTitle: Initial Consultation
-feeInfo: The fee for each counselling session is £50
-durationInfo: Sessions last 50 minutes and can be carried out in-person, online or over the phone
-consultationInfo: >
- #### Initial Consultation
+ #### Fees and Payment
+sessionType: In-person / Online / Telephone
+fee: £50
+duration: 50 minutes
+feeInfo: >
+  Fees are payable on a session by session basis and are due no later than 24 hours before the start
+  of each session. I accept payments via bank transfer, PayPal, and debit/credit card.
 
- I also offer a free initial consultation before clients start counselling. This helps to
- identify whether counselling is right for you and gives you an opportunity to ask me any
- questions you might have about the service or the counselling process. A consultation
- lasts 20 minutes and can be carried out online or over the phone.
-inPerson: In-Person
-online: Online (Zoom)
-telephone: Telephone
-sessionFrequency: Weekly or Fortnightly
+button1Name: Book a session
+button1Target: contact
 
 title: >
   ## Services & Fees
 
 serviceInfo: >
-  I offer in-person, online and telephone counselling sessions to individuals aged 18 and over.
+  I provide counselling and psychotherapy in-person, online, and via telephone to individuals aged
+  18 and over, with the option of weekly or fortnighly sessions. I offer both short-term and long-term
+  counselling/psychotherapy, and suggest that we review your progress every six weeks, to ensure that
+  you are getting the most out of the sessions.
 
 
   As a gay man and LGBTQIA+ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
@@ -38,8 +36,18 @@ serviceInfo: >
 
   My counselling experience includes supporting clients with the following issues:
 
-feeDescription: >
-  The session fee is £50, and sessions are 50 minutes in length. You can choose for us to meet either weekly or fortnightly.
+consultationTitle: Initial Consultation
+
+consultationInfo: >
+ #### Initial Consultation
+
+ I also offer a free initial consultation before clients start counselling. This helps to
+ identify whether counselling is right for you and gives you an opportunity to ask me any
+ questions you might have about the service or the counselling process. A consultation
+ lasts 20 minutes and can be carried out online or over the phone.
+
+
+ To book an initial consultation, please contact me.
 
 listA: >
   Anxiety
@@ -57,15 +65,21 @@ listA: >
   Gender identity
 
 
+  Identity struggles
+
+
+  Isolation / Loneliness
+
+
   Low self-confidence
 
 
   Low self-esteem
 
-
+listB: >
   OCD
 
-listB: >
+
   Perfectionism
 
 
