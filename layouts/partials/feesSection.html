@@ -43,6 +43,8 @@
           </div>
           <div>
             {{ .faqInfo | markdownify}}
+            <a class="separatePageLink"
+                href="{{ .faqPage | absURL }}">Frequently Asked Questions page.</a>
             <br />
             <br />
             <br />
@@ -78,6 +80,8 @@
         </div>
         <div>
           {{ .consultationInfo | markdownify }}
+          <a class="separatePageLink"
+              href="{{ .button1Target | absURL }}">contact me.</a>
           <br />
           <br />
           <br />

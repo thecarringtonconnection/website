@@ -75,14 +75,8 @@
         }
       }
     }
-    h5.table-header {
-      color: $secondary;
-    }
     p {
       margin: 0;
-    }
-    p.fees-white-text {
-      color: #fff;
     }
   }
   &-thumb {
@@ -133,5 +127,14 @@
         }
       }
     }
+  }
+  p.fees-white-text {
+    color: #fff;
+  }
+  h5.table-header {
+    color: $secondary;
+  }
+  a.separatePageLink:hover {
+    text-decoration: underline;
   }
 }

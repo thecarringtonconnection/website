@@ -13,6 +13,8 @@ feeInfo: >
 button1Name: Book a session
 button1Target: contact
 
+faqPage: faq
+
 title: >
   ## Services & Fees
 
@@ -44,7 +46,7 @@ consultationInfo: >
  I also offer a free initial consultation before clients begin sessions. This helps to identify whether
  counselling or psychotherapy is right for you and gives you an opportunity to ask me any questions you
  might have about the service or the counselling process. A consultation lasts 20 minutes and can be
- carried out online or over the phone. To book an initial consultation, please [contact me](contact).
+ carried out online or over the phone. To book an initial consultation, please
 
 listA: >
   Anger
@@ -107,4 +109,4 @@ listB: >
   Trauma
 
 faqInfo: >
-  Further information about counselling, psychotherapy and the services I provide can be found on the [Frequently Asked Questions page](faq).
+  Further information about counselling, psychotherapy and the services I provide can be found on the
