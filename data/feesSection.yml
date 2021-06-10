@@ -20,7 +20,7 @@ serviceInfo: >
   I provide counselling and psychotherapy to individuals aged 18 and over in-person, online, and via
   telephone, with the option of weekly or fortnighly sessions. I offer both short-term and long-term
   counselling and psychotherapy, and suggest that we review your progress every six weeks, to ensure that
-  you are getting the most out of the sessions.
+  you are getting the most out of your sessions.
 
 
   As a gay man and LGBTQIA+ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
@@ -44,10 +44,7 @@ consultationInfo: >
  I also offer a free initial consultation before clients begin sessions. This helps to identify whether
  counselling or psychotherapy is right for you and gives you an opportunity to ask me any questions you
  might have about the service or the counselling process. A consultation lasts 20 minutes and can be
- carried out online or over the phone.
-
-
- To book an initial consultation, please contact me.
+ carried out online or over the phone. To book an initial consultation, please [contact me](contact).
 
 listA: >
   Anger
@@ -110,4 +107,4 @@ listB: >
   Trauma
 
 faqInfo: >
-  Further information about counselling, psychotherapy and the services I provide can be found on the Frequently Asked Questions page.
+  Further information about counselling, psychotherapy and the services I provide can be found on the [Frequently Asked Questions page](faq).
