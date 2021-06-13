@@ -1,43 +1,6 @@
 .service {
   position: relative;
   padding: 100px 0 0px 0;
-  .service-svg-img {
-    position: absolute;
-    top: 20%;
-    left: -7%;
-    animation: move_top 5s infinite linear;
-    @include desktop {
-      display: none;
-    }
-  }
-  .animate-shape-service {
-    position: absolute;
-    top: 25%;
-    right: 4%;
-    height: 300px;
-    width: 300px;
-    svg {
-      width: 100%;
-    }
-    @include desktop {
-      display: none;
-    }
-  }
-  .animate-pattern-service {
-    position: absolute;
-    top: 31%;
-    right: 12%;
-    height: 100px;
-    width: 100px;
-    animation: move_top 3s infinite linear;
-    img {
-      height: 100%;
-      width: 100%;
-    }
-    @include desktop {
-      display: none;
-    }
-  }
   &-info {
     display: flex;
     justify-content: space-around;
