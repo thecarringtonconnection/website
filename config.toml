@@ -13,17 +13,17 @@ name = "About"
 url = "#about"
 weight = 2
 [[menu.main]]
-name = "Services & Fees"
-url = "#fees"
+name = "Services"
+url = "#service"
 weight = 3
 [[menu.main]]
-name = "Skills"
-url = "#skills"
-weight = 5
+name = "Fees"
+url = "#fees"
+weight = 4
 [[menu.main]]
 name = "Resume"
 url = "#resume"
-weight = 4
+weight = 5
 [[menu.main]]
 name = "Blog"
 url = "#blog"

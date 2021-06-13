@@ -1,45 +1,112 @@
 ---
 enable: true
-topTitle: Working Area
+topTitle: Services
+feesTitle: >
+ #### Services
+sessionType: In-person / Online / Telephone
+fee: £50
+duration: 50 minutes
+feeInfo: >
+  Fees are payable on a session by session basis and are due no later than 24 hours before the start
+  of each session. I accept payments via bank transfer, PayPal, and debit/credit card.
+
+button1Name: Book a session
+button1Target: contact
+
+faqPage: faq
+
 title: >
-  ## Services & Fees
+  ## Services
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
-service:
-  - content: >
-      #### UI/UX Design
+serviceInfo: >
+  I offer counselling and psychotherapy to individuals aged 18 and over in-person, online, and via
+  telephone, with the option of weekly or fortnighly sessions. I offer both short-term and long-term
+  counselling and psychotherapy, and suggest that we review your progress every six weeks, to ensure that
+  you are getting the most out of your sessions.
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
-  - content: >
-      #### Creative Design
+  I provide a safe, confidential, and non-judgemental space in which you can explore
+  your thoughts, feelings and concerns, helping you to understand more about yourself, your
+  situation and your relationships with others.
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/creative.svg
-  - content: >
-      #### Branding
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
+  As a gay man and LGBTQIA+ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
+  You may be interested in coming for counselling to talk in confidence about issues relating to your
+  sexuality or gender identity. Or you may want to explore other issues and feel more comfortable
+  talking to a counsellor who identifies as LGBTQIA+.
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+  My counselling experience includes supporting clients with the following issues:
+
+consultationTitle: Initial Consultation
+
+consultationInfo: >
+ #### Is this service for me?
+
+ I also offer a free initial consultation before clients begin sessions. This helps to identify whether
+ counselling or psychotherapy is right for you and gives you an opportunity to ask me any questions you
+ might have about the service or the counselling process. A consultation lasts 20 minutes and can be
+ carried out online or over the phone. To book an initial consultation, please
+
+listA: >
+  Anger
+
+
+  Anxiety
+
+
+  Bereavement
+
+
+  Depression
+
+
+  Drug use
+
+
+  Family issues
+
+
+  Gender identity
+
+
+  Identity struggles
+
+
+  Isolation / Loneliness
+
+
+  Low self-confidence
+
+listB: >
+  Low self-esteem
+
+
+  OCD
+
+
+  Perfectionism
+
+
+  Relationship difficulties
+
+
+  Self-harm
+
+
+  Sex and Sexuality
+
+
+  Sexual abuse
+
+
+  Stress
+
+
+  Suicidal thoughts
+
+
+  Trauma
+
+faqInfo: >
+  Further information about counselling, psychotherapy and the services I provide can be found on the

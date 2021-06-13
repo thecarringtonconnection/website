@@ -1,6 +1,6 @@
 ---
 enable: true
-topTitle: Services & Fees
+topTitle: Fees
 feesTitle: >
  #### Fees and Payment
 sessionType: In-person / Online / Telephone
@@ -16,13 +16,18 @@ button1Target: contact
 faqPage: faq
 
 title: >
-  ## Services & Fees
+  ## Fees
 
 serviceInfo: >
-  I provide counselling and psychotherapy to individuals aged 18 and over in-person, online, and via
+  I offer counselling and psychotherapy to individuals aged 18 and over in-person, online, and via
   telephone, with the option of weekly or fortnighly sessions. I offer both short-term and long-term
   counselling and psychotherapy, and suggest that we review your progress every six weeks, to ensure that
   you are getting the most out of your sessions.
+
+
+  I provide a safe, confidential, and non-judgemental space in which you can explore
+  your thoughts, feelings and concerns, helping you to understand more about yourself, your
+  situation and your relationships with others.
 
 
   As a gay man and LGBTQIA+ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
@@ -31,17 +36,12 @@ serviceInfo: >
   talking to a counsellor who identifies as LGBTQIA+.
 
 
-  I provide a safe, confidential, and non-judgemental space in which you can explore
-  your thoughts, feelings and concerns, helping you to understand more about yourself, your
-  situation and your relationships with others.
-
-
   My counselling experience includes supporting clients with the following issues:
 
 consultationTitle: Initial Consultation
 
 consultationInfo: >
- #### Initial Consultation
+ #### Is this service for me?
 
  I also offer a free initial consultation before clients begin sessions. This helps to identify whether
  counselling or psychotherapy is right for you and gives you an opportunity to ask me any questions you

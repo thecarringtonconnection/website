@@ -27,31 +27,10 @@
         <div class="portfolio__header mb-5">
           <span class="top-title">{{ .topTitle }}</span>
           {{ .title | markdownify }}
-          {{ .serviceInfo | markdownify }}
         </div>
-          <div class="row mb-5 text-center">
-            <div class="col-lg-6">
-              <div class="fees-details-service text-dark">
-                  {{ .listA  | markdownify }}
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="fees-details-service text-dark">
-                  {{ .listB | markdownify }}
-              </div>
-            </div>
-          </div>
-          <div>
-            {{ .faqInfo | markdownify}}
-            <a class="separatePageLink"
-                href="{{ .faqPage | absURL }}">Frequently Asked Questions page.</a>
-            <br />
-            <br />
-            <br />
-          </div>
-          <div class="portfolio__header mb-5">
-            {{ .feesTitle | markdownify}}
-          </div>
+        <div>
+          {{ .feeInfo | markdownify}}
+        </div>
         <div>
         <div class="fees-info text-center">
           <div class="fee-details-info-item">
@@ -73,12 +52,7 @@
         <div>
           <br />
           <br />
-          {{ .feeInfo | markdownify}}
           <br />
-          <br />
-          <br />
-        </div>
-        <div>
           {{ .consultationInfo | markdownify }}
           <a class="separatePageLink"
               href="{{ .button1Target | absURL }}">contact me.</a>
