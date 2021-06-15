@@ -7,6 +7,7 @@
             <div class="col-lg-6">
                 <div class="resume__heading">
                     <div class="text-light">
+                        <span class="top-title pre-line">{{ .topTitle }}</span>
                         {{ .title | markdownify }}
                     </div>
 
@@ -18,25 +19,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="tab-content ">
-
-
                     <div class="resume__education tab-pane active" id="{{.tab1Target}}">
-                      <div class="resume__education_item">
-                        <div class="about_content-thumb">
-                            <div class="about_content-thumb-image">
-                                <img src="{{ .image | absURL }}" alt="about-img">
-                            </div>
-                        </div>
-                      </div>
-                        {{ $Section := .experience }}
-                        {{ range $Section }}
-                        <div class="resume__education_item">
-                            {{ .aboutMe | markdownify }}
-                        </div>
-                        {{ end }}
-                    </div>
-
-                    <div class="resume__education tab-pane" id="{{.tab2Target}}">
                         {{ $Section := .education }}
                         {{ range $Section }}
                         <div class="resume__education_item">
@@ -44,13 +27,17 @@
                             {{ .content | markdownify }}
                         </div>
                         {{ end }}
+
                     </div>
 
-                    <div class="text-center">
-                        <a class="btn btn-primary mr-3 btn-zoom"
-                            href="{{ .button1Target | absURL }}">{{ .button1Name }}</a>
-                        <a class="btn btn-primary mr-3 btn-zoom" href="{{ .button2Target }}">
-                            {{ .button2Name }} </a>
+                    <div class="resume__education tab-pane" id="{{.tab2Target}}">
+                        {{ $Section := .experience }}
+                        {{ range $Section }}
+                        <div class="resume__education_item">
+                            <span class="pre-line text-primary"> {{ .time }} </span>
+                            {{ .content | markdownify }}
+                        </div>
+                        {{ end }}
                     </div>
 
                 </div>

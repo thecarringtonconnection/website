@@ -1,22 +1,14 @@
 ---
 enable: true
-topTitle: About
+topTitle: My Resume
 title: >
-  ## Mike Carrington
-
-  #### (He/Him)
-
-  I am passionate about supporting LGBTQIA+ adults on their journal to positive mental health.
+  ## Qualifications and Experience
 
 tab1Name: About Me
 tab2Name: Qualifications
-tab1Target: experience
-tab2Target: education
+tab1Target: education
+tab2Target: experience
 
-button1Name: Contact me
-button2Name: Services & Fees
-button1Target: contact
-button2Target: "#fees"
 image: images/about/about-img.jpg
 
 education:
@@ -55,12 +47,8 @@ education:
     time: Ongoing
 
 experience:
-  - aboutMe: >
-      ##### Integrative Counsellor and Psychotherapist
+  - content1: >
+      #### Umbrella co.
 
-      I am an integrative counsellor and psychotherapist, which involves working with a variety of therapeutic approaches, such as Person-Centred,
-      Psychodynamic, Existential, and CBT, and combining them to suit the needs of each individual client.
-
-
-      I am also a registered member of the British Association for Counselling and Psychotherapy (BACP) and work in accordance with their Ethical Framework.
-      This helps to ensure safe, ethical and professional practice and to make sure that the client is constantly at the heart of my work.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time1: 2016-Present
