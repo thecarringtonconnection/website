@@ -7,8 +7,14 @@ sessionType: In-person / Online / Telephone
 fee: £50
 duration: 50 minutes
 feeInfo: >
-  Fees are payable on a session by session basis and are due no later than 24 hours before the start
-  of each session. I accept payments via bank transfer, PayPal, and debit/credit card.
+  Fees are payable on a session by session basis.
+
+
+  Payment should be made no later than 24 hours before the start of each session. Please note that cancellations
+  within 24 hours of your appointment are subject to a cancellation fee.
+
+
+  Bank transfer, PayPal, and debit/credit card all accepted.
 
 button1Name: Book a session
 button1Target: contact
@@ -43,10 +49,14 @@ consultationTitle: Initial Consultation
 consultationInfo: >
  #### Is this service for me?
 
- I also offer a free initial consultation before clients begin sessions. This helps to identify whether
- counselling or psychotherapy is right for you and gives you an opportunity to ask me any questions you
- might have about the service or the counselling process. A consultation lasts 20 minutes and can be
- carried out online or over the phone. To book an initial consultation, please
+ Free consultations available.
+
+
+ If you are unsure whether counselling or psychotherapy is right for you, a free 20-minute initial consultation
+ allows the opportunity to ask any questions about the service or counselling process.
+
+
+ To book a consultation online or over the phone, please [contact me](contact).
 
 listA: >
   Anger

@@ -14,14 +14,14 @@ tab1Target: experience
 tab2Target: education
 
 button1Name: Contact me
-button2Name: Services & Fees
+button2Name: Services
 button1Target: contact
-button2Target: "#fees"
+button2Target: "#service"
 image: images/about/about-img.jpg
 
 education:
   - content: >
-      #### Diploma in Therapeutic Counselling
+      ##### Diploma in Therapeutic Counselling
 
       I completed four years of counselling training at The Bedfordshire Centre for Therapeutic Stuides, where I achieved the following qualifications:
 
@@ -31,17 +31,17 @@ education:
        * Level 2 Certificate in Counselling Skills
     time: 2017-2021
   - content: >
-      #### Cognitive Behavioural Therapy (CBT) Diploma
+      ##### Cognitive Behavioural Therapy (CBT) Diploma
 
       My CBT training allows me to incorporate elements of Cognitive Behavioural Therapy into my work with clients who would like to work in this way.
     time: 2020
   - content: >
-      #### Online and Telephone Counselling Certification
+      ##### Online and Telephone Counselling Certification
 
       This 80-hour training course provided me with a strong foundation for working with clients via telephone and online.
     time: 2020
   - content: >
-      #### Continuing Professional Development (CPD)
+      ##### Continuing Professional Development (CPD)
 
       I regularly engage in additional training to support my professional development.
 
@@ -58,9 +58,7 @@ experience:
   - aboutMe: >
       ##### Integrative Counsellor and Psychotherapist
 
-      I am an integrative counsellor and psychotherapist, which involves working with a variety of therapeutic approaches, such as Person-Centred,
-      Psychodynamic, Existential, and CBT, and combining them to suit the needs of each individual client.
+      Person-Centred, Psychodynamic, Existential, and CBT approaches, combined to suit the need of each individual client.
 
 
-      I am also a registered member of the British Association for Counselling and Psychotherapy (BACP) and work in accordance with their Ethical Framework.
-      This helps to ensure safe, ethical and professional practice and to make sure that the client is constantly at the heart of my work.
+      British Association for Counselling and Psychotherapy (BACP) member.

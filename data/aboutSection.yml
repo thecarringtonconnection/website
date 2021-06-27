@@ -19,7 +19,7 @@ content: >
   Ethical Framework. This helps to ensure safe, ethical and professional practice and to make sure that the client is
   constantly at the heart of my work.
 button1Name: Contact me
-button2Name: Services & Fees
+button2Name: Services
 button1Target: contact
-button2Target: "#fees"
+button2Target: "#service"
 image: images/about/about-img.jpg
