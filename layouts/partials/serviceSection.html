@@ -22,11 +22,7 @@
             </div>
           </div>
           <div>
-            <a class="separatePageLink"
-                href="{{ .faqPage | absURL }}">Frequently Asked Questions</a>
-            <br />
-            <br />
-            <br />
+            {{ .faqInfo | markdownify }}
           </div>
     </div>
   </div>

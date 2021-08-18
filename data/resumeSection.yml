@@ -6,7 +6,7 @@ title: >
 
   #### (He/Him)
 
-  I am passionate about supporting LGBTQIA+ adults on their journal to positive mental health.
+  Supporting LGBTQIA+ adults on their journey to positive mental health
 
 tab1Name: About Me
 tab2Name: Qualifications
@@ -17,7 +17,7 @@ button1Name: Contact me
 button2Name: Services
 button1Target: contact
 button2Target: "#service"
-image: images/about/about-img.jpg
+image: images/about/about-img2.jpg
 
 education:
   - content: >
@@ -38,15 +38,15 @@ education:
   - content: >
       ##### Online and Telephone Counselling Certification
 
-      This 80-hour training course provided me with a strong foundation for working with clients via telephone and online.
+      This 80-hour training course provided a strong foundation for working with clients online and via telephone.
     time: 2020
   - content: >
       ##### Continuing Professional Development (CPD)
 
-      I regularly engage in additional training to support my professional development.
+      Regular engagement in additional training to support professional development.
 
 
-      Examples of CPD courses I have recently completed can be found, below:
+      CPD courses recently completed include:
 
 
        * Enhancing the Therapeutic Relationship with GSRD Clients

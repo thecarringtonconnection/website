@@ -24,16 +24,6 @@ serviceInfo: >
 
   Sessions available to individuals aged 18 and over, in-person, online, and via telephone.
 
-consultationTitle: Initial Consultation
-
-consultationInfo: >
- #### Is this service for me?
-
- I also offer a free initial consultation before clients begin sessions. This helps to identify whether
- counselling or psychotherapy is right for you and gives you an opportunity to ask me any questions you
- might have about the service or the counselling process. A consultation lasts 20 minutes and can be
- carried out online or over the phone. To book an initial consultation, please
-
 listA: >
   Anger
 
@@ -93,3 +83,6 @@ listB: >
 
 
   Trauma
+
+faqInfo: >
+  [Frequently Asked Questions](faq)
