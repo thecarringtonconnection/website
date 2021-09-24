@@ -20,8 +20,9 @@
                 <div class="testimonial__slider">
                     {{ $section := .testimonial }}
                     {{ range $section }}
-                    <div class="testimonial__slider_item">
+                    <div class="testimonial__slider_item text-justify">
                         <p class="testimonial__slider_item-content"> {{ .comment | markdownify }} </p>
+                        <br />
                         <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .time }}</p>
                     </div>
                     {{ end }}

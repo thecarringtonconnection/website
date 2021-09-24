@@ -13,9 +13,6 @@ feeInfo: >
   Payment should be made no later than 24 hours before the start of each session. Please note that cancellations
   within 24 hours of your appointment are subject to a cancellation fee.
 
-
-  Bank transfer, PayPal, and debit/credit card all accepted.
-
 button1Name: Book a session
 button1Target: contact
 
@@ -23,26 +20,6 @@ faqPage: faq
 
 title: >
   ## Fees
-
-serviceInfo: >
-  I offer counselling and psychotherapy to individuals aged 18 and over in-person, online, and via
-  telephone, with the option of weekly or fortnighly sessions. I offer both short-term and long-term
-  counselling and psychotherapy, and suggest that we review your progress every six weeks, to ensure that
-  you are getting the most out of your sessions.
-
-
-  I provide a safe, confidential, and non-judgemental space in which you can explore
-  your thoughts, feelings and concerns, helping you to understand more about yourself, your
-  situation and your relationships with others.
-
-
-  As a gay man and LGBTQIA+ counsellor, I understand the challenges that many LGBTQIA+ individuals face.
-  You may be interested in coming for counselling to talk in confidence about issues relating to your
-  sexuality or gender identity. Or you may want to explore other issues and feel more comfortable
-  talking to a counsellor who identifies as LGBTQIA+.
-
-
-  My counselling experience includes supporting clients with the following issues:
 
 consultationTitle: Initial Consultation
 

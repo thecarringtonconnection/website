@@ -77,7 +77,7 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+url = "https://www.facebook.com/thecarringtonconnection"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
