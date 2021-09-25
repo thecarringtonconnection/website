@@ -45,7 +45,7 @@
 					<ul class="unstyle-list small">
 						{{ $sitemap := .Site.Menus.sitemap }}
 						{{ range $sitemap }}
-						<li class="mb-2"><a class="text-light" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+						<li class="mb-2"><a class="text-light" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -58,10 +58,10 @@
 						<li class="mb-2"><a class="text-light" href="tel:{{ $address.phone }}"><span class="fa-li"><i
 										class="fa fa-phone"></i></span>{{ $address.phone }}</a></li>
 						<li class="mb-2">
-							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address }}</a>
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address }}
 						</li>
 						<li class="mb-2">
-							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address2 }}</a>
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address2 }}
 						</li>
 						<li class="mb-2"><a class="text-light" href="mailto:{{ $address.email }}"><span class="fa-li"><i
 										class="fa fa-envelope"></i></span>{{ $address.email }}</a></li>

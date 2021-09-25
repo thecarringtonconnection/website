@@ -10,7 +10,7 @@ url = "#home"
 weight = 1
 [[menu.main]]
 name = "About"
-url = "#about"
+url = "#resume"
 weight = 2
 [[menu.main]]
 name = "Services"
@@ -21,12 +21,12 @@ name = "Fees"
 url = "#fees"
 weight = 4
 [[menu.main]]
-name = "Resume"
-url = "#resume"
+name = "FAQs"
+url = "faq"
 weight = 5
 [[menu.main]]
-name = "Blog"
-url = "#blog"
+name = "Testimonials"
+url = "#testimonials"
 weight = 6
 [[menu.main]]
 name = "Contact"
@@ -35,12 +35,12 @@ weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
-name = "About me"
-url = "about"
+name = "About"
+url = "#resume"
 weight = 1
 [[menu.sitemap]]
 name = "Frequently Asked Questions"
-url = "#"
+url = "faq"
 weight = 4
 [[menu.sitemap]]
 name = "Privacy Policy"
@@ -61,7 +61,7 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/tcc_logo_transparent.svg"
 
 [params.address]
-address = "Lewisham, South East London"
+address = "Grove Park, Lewisham, SE12"
 address2 = "Clapham, South West London"
 email = "mike@thecarringtonconnection.co.uk"
 openingHours = "Open from 8am to 9pm"
@@ -80,14 +80,6 @@ icon = "fa-facebook-official"
 url = "https://www.facebook.com/thecarringtonconnection"
 weight = 1
 [[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+icon = "fa-instagram"
+url = "https://www.instagram.com/thecarringtonconnection/"
 weight = 2
-[[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
-weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4
