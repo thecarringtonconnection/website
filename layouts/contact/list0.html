@@ -1,0 +1,485 @@
+{{ define "main" }}
+
+<header class="breadCrumb">
+  <div class="svg-img">
+    <img src="{{ "images/hero/figure-svg-multi.svg" | absURL }}" alt="bg">
+  </div>
+  <div class="animate-shape">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+      <defs>
+        <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+          <stop offset="0" stop-color="#ece9f4" />
+          <stop offset="1" stop-color="#ece9f4" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <g data-name="blob-shape (3)">
+        <path class="blob" fill="url(#d)"
+          d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+      </g>
+    </svg>
+  </div>
+  <div class="animate-pattern">
+    <img src="{{ "images/service/background-pattern-multi.svg" | absURL }}" alt="background-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="breadCrumb__title">{{ .Title }}</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Params.breadcrumb }}</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+{{ $address := .Site.Params.address }}
+<section class="section contact__info">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="contact__info_item">
+          <div class="contact__info_item-icon">
+            <div class="icon-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                <path fill="#ece9f4"
+                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                  data-name="Path 1354" />
+              </svg>
+            </div>
+            <div class="icon">
+              <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" />
+            </div>
+          </div>
+          <h4>Office Address</h4>
+          <p>
+            {{ $address.address }}<br />
+            {{ $address.address2 }}
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="contact__info_item">
+          <div class="contact__info_item-icon">
+            <div class="icon-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                <path fill="#ece9f4"
+                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                  data-name="Path 1354" />
+              </svg>
+            </div>
+            <div class="icon">
+              <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />
+            </div>
+          </div>
+          <h4>Phone & Email</h4>
+          <p>{{ $address.phone }}<br>
+            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+          </p>
+
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="contact__info_item">
+          <div class="contact__info_item-icon">
+            <div class="icon-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                <path fill="#ece9f4"
+                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                  data-name="Path 1354" />
+              </svg>
+            </div>
+            <div class="icon">
+              <img src="{{ "images/contact/time.svg" | absURL }}" alt="time" />
+            </div>
+          </div>
+          <h4>Working Hours</h4>
+          <p>
+            {{ $address.openingHours }}<br />
+            {{ $address.openingHours2 }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div>
+          <h3>Online Bookings</h3>
+          <p>Schedule a free 20-minute initial consultation or book and pay for a therapy session online using the button, below.</p>
+          <a class="btn btn-secondary mr-3 btn-zoom"
+          href="{{ .Site.Params.bookingLink | absURL }}">Book an appointment</a>
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="contact-form-title">
+          <h3>Contact Form</h3>
+        </div>
+        <div class="contact-form-input">
+          <form id="contact-form" action="{{ .Site.Params.formspreeURL }}" method="POST">
+
+            <div class="form-row">
+
+              <div class="form-group col-md-6 pr-3">
+                <input type="text" class="form-control" name="Name" placeholder="Name" required />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Email" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" id="message" rows="6" name="message" placeholder="Message"></textarea>
+            </div>
+
+            <div class="form-group">
+              <div class="form-check small">
+                <input type="checkbox" class="form-check-input" name="agreement" id="aggrement" required />
+                <label class="form-check-label" for="aggrement">
+                  I agree to my submitted data being collected and
+                  stored.</label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">Send Message</button>
+            <p id="contact-form-status" class="mt-3"></p>
+          </form>
+
+          <!-- <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  I agree that my submitted data is being collected and
+                  stored.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form> -->
+
+
+
+        </div>
+      </div>
+      <div class="col-lg-6">
+        {{ $map := .Site.Params.map }}
+        <div id="map" data-lat={{ $map.latitude }} data-long={{ $map.longitude }} data-pin={{ $map.pinImage | absURL }}>
+        </div>
+      </div>
+      <!-- Note :
+         - You can modify the font style and form style to suit your website.
+         - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code.
+         - The Mandatory check script can modified as to suit your business needs.
+         - It is important that you test the modified form before going live.-->
+      <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white;color: black;max-width: 600px;'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+         <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+         <form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads389766000000309016 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory389766000000309016()' accept-charset='UTF-8'>
+       <input type='text' style='display:none;' name='xnQsjsdp' value='f58bc6e40d7138940b0823da2afe9498fff245b3c69ab5177f0102612951e10b'></input>
+       <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+       <input type='text' style='display:none;' name='xmIwtLD' value='4c430a94b7ceda87722607203540468f4290a5182e389d521c50e1e350559763'></input>
+       <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+       <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;www.thecarringtonconnection.co.uk&#x2f;thank-you' > </input>
+      	 <!-- Do not remove this code. -->
+      	 <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
+      	 <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+      	 <!-- Do not remove this code. -->
+      <style>
+      html,body{
+      	margin: 0px;
+      }
+      #crmWebToEntityForm.zcwf_lblLeft {
+      	width:100%;
+      	padding: 25px;
+      	margin: 0 auto;
+      	box-sizing: border-box;
+      }
+      #crmWebToEntityForm.zcwf_lblLeft * {
+      	box-sizing: border-box;
+      }
+      #crmWebToEntityForm{text-align: left;}
+      #crmWebToEntityForm * {
+      	direction: ltr;
+      }
+      .zcwf_lblLeft .zcwf_title {
+      	word-wrap: break-word;
+      	padding: 0px 6px 10px;
+      	font-weight: bold;
+      }
+      .zcwf_lblLeft .zcwf_col_fld input[type=text], .zcwf_lblLeft .zcwf_col_fld textarea {
+      	width: 60%;
+      	border: 1px solid #ccc !important;
+      	resize: vertical;
+      	border-radius: 2px;
+      	float: left;
+      }
+      .zcwf_lblLeft .zcwf_col_lab {
+      	width: 30%;
+      	word-break: break-word;
+      	padding: 0px 6px 0px;
+      	margin-right: 10px;
+      	margin-top: 5px;
+      	float: left;
+      	min-height: 1px;
+      }
+      .zcwf_lblLeft .zcwf_col_fld {
+      	float: left;
+      	width: 68%;
+      	padding: 0px 6px 0px;
+      	position: relative;
+      	margin-top: 5px;
+      }
+      .zcwf_lblLeft .zcwf_privacy{padding: 6px;}
+      .zcwf_lblLeft .wfrm_fld_dpNn{display: none;}
+      .dIB{display: inline-block;}
+      .zcwf_lblLeft .zcwf_col_fld_slt {
+      	width: 60%;
+      	border: 1px solid #ccc;
+      	background: #fff;
+      	border-radius: 4px;
+      	font-size: 12px;
+      	float: left;
+      	resize: vertical;
+      }
+      .zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after {
+      	content: '';
+      	display: table;
+      	clear: both;
+      }
+      .zcwf_lblLeft .zcwf_col_help {
+      	float: left;
+      	margin-left: 7px;
+      	font-size: 12px;
+      	max-width: 35%;
+      	word-break: break-word;
+      }
+      .zcwf_lblLeft .zcwf_help_icon {
+      	cursor: pointer;
+      	width: 16px;
+      	height: 16px;
+      	display: inline-block;
+      	background: #fff;
+      	border: 1px solid #ccc;
+      	color: #ccc;
+      	text-align: center;
+      	font-size: 11px;
+      	line-height: 16px;
+      	font-weight: bold;
+      	border-radius: 50%;
+      }
+      .zcwf_lblLeft .zcwf_row {margin: 15px 0px;}
+      .zcwf_lblLeft .formsubmit {
+      	margin-right: 5px;
+      	cursor: pointer;
+      	color: #333;
+      	font-size: 12px;
+      }
+      .zcwf_lblLeft .zcwf_privacy_txt {
+      	color: rgb(0, 0, 0);
+      	font-size: 12px;
+      	font-family: Verdana;
+      	display: inline-block;
+      	vertical-align: top;
+      	color: #333;
+      	padding-top: 2px;
+      	margin-left: 6px;
+      }
+      .zcwf_lblLeft .zcwf_button {
+      	font-size: 12px;
+      	color: #333;
+      	border: 1px solid #ccc;
+      	padding: 3px 9px;
+      	border-radius: 4px;
+      	cursor: pointer;
+      	max-width: 120px;
+      	overflow: hidden;
+      	text-overflow: ellipsis;
+      	white-space: nowrap;
+      }
+      .zcwf_lblLeft .zcwf_tooltip_over{
+      	position: relative;
+      }
+      .zcwf_lblLeft .zcwf_tooltip_ctn{
+      	position: absolute;
+      	background: #dedede;
+      	padding: 3px 6px;
+      	top: 3px;
+      	border-radius: 4px;word-break: break-all;
+      	min-width: 50px;
+      	max-width: 150px;
+      	color: #333;
+      }
+      .zcwf_lblLeft .zcwf_ckbox{
+      	float: left;
+      }
+      .zcwf_lblLeft .zcwf_file{
+      	width: 55%;
+      	box-sizing: border-box;
+      	float: left;
+      }
+      .clearB:after{
+      	content:'';
+      	display: block;
+      	clear: both;
+      }
+      @media all and (max-width: 600px) {
+      	.zcwf_lblLeft .zcwf_col_lab, .zcwf_lblLeft .zcwf_col_fld {
+      		width: auto;
+      		float: none !important;
+      	}
+      	.zcwf_lblLeft .zcwf_col_help {width: 40%;}
+      }
+      </style>
+      <div class='zcwf_title' style='max-width: 600px;color: black;'>Contact Form</div>
+      <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Verdana;'><label for='First_Name'>First Name<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'></input><div class='zcwf_col_help'></div></div></div>
+      <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Verdana;'><label for='Last_Name'>Last Name<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'></input><div class='zcwf_col_help'></div></div></div>
+      <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Verdana;'><label for='Email'>Email<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' maxlength='100'></input><div class='zcwf_col_help'></div></div></div>
+      <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; font-family: Verdana;'><label for='LEADCF13'>Message<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><textarea id='LEADCF13' name='LEADCF13'></textarea><div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_privacy'><div class='dIB vat' align='left'><div class='displayPurpose  f13'><label class='newCustomchkbox-md dIB w100per'><input autocomplete='off' id='privacyTool389766000000309016' type='checkbox' name='privacyTool' onclick='disableErr389766000000309016()'></label></div></div><div class='dIB zcwf_privacy_txt' style='font-size: 12px;font-family:Verdana;color: black;'>I agree to my submitted data being collected and stored.</div> <div  id='privacyErr389766000000309016' style='font-size:12px;color:red;padding-left: 5px;visibility:hidden;'>Please accept this</div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div><div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Send&#x20;Message' title='Send&#x20;Message'><input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'></div></div>
+      	<script>
+      		function privacyAlert389766000000309016()
+      		{
+      			var privacyTool = document.getElementById('privacyTool389766000000309016');
+      			var privacyErr = document.getElementById('privacyErr389766000000309016');
+      			if(privacyTool !=undefined && !privacyTool.checked )
+      			{
+      				privacyErr.style.visibility='visible';
+      				privacyTool.focus();
+      				return false;
+      			}
+      			return true;
+      		}
+      		function disableErr389766000000309016()
+      		{
+      			var privacyTool = document.getElementById('privacyTool389766000000309016');
+      			var privacyErr = document.getElementById('privacyErr389766000000309016');
+      			if(privacyTool !=undefined && privacyTool.checked && privacyErr !=undefined )
+      			{
+      				privacyErr.style.visibility='hidden';
+      			}
+      		}
+      	function validateEmail389766000000309016()
+      	{
+      		var form = document.forms['WebToLeads389766000000309016'];
+      		var emailFld = form.querySelectorAll('[ftype=email]');
+      		var i;
+      		for (i = 0; i < emailFld.length; i++)
+      		{
+      			var emailVal = emailFld[i].value;
+      			if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
+      			{
+      				var atpos=emailVal.indexOf('@');
+      				var dotpos=emailVal.lastIndexOf('.');
+      				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
+      				{
+      					alert('Please enter a valid email address. ');
+      					emailFld[i].focus();
+      					return false;
+      				}
+      			}
+      		}
+      		return true;
+      	}
+
+       	  function checkMandatory389766000000309016() {
+      		var mndFileds = new Array('First Name','Last Name','Email','LEADCF13');
+      		var fldLangVal = new Array('First\x20Name','Last\x20Name','Email','Message');
+      		for(i=0;i<mndFileds.length;i++) {
+      		  var fieldObj=document.forms['WebToLeads389766000000309016'][mndFileds[i]];
+      		  if(fieldObj) {
+      			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+      			 if(fieldObj.type =='file')
+      				{
+      				 alert('Please select a file to upload.');
+      				 fieldObj.focus();
+      				 return false;
+      				}
+      			alert(fldLangVal[i] +' cannot be empty');
+         	   	  	  fieldObj.focus();
+         	   	  	  return false;
+      			}  else if(fieldObj.nodeName=='SELECT') {
+        	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+      				alert(fldLangVal[i] +' cannot be none');
+      				fieldObj.focus();
+      				return false;
+      			   }
+      			} else if(fieldObj.type =='checkbox'){
+       	 	 	 if(fieldObj.checked == false){
+      				alert('Please accept  '+fldLangVal[i]);
+      				fieldObj.focus();
+      				return false;
+      			   }
+      			 }
+      			 try {
+      			     if(fieldObj.name == 'Last Name') {
+      				name = fieldObj.value;
+       	 	 	    }
+      			} catch (e) {}
+      		    }
+      		}
+      		trackVisitor();
+      		if(!validateEmail389766000000309016()){return false;}
+
+      		if(!privacyAlert389766000000309016()){return false;}
+      		document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+      	}
+
+      function tooltipShow389766000000309016(el){
+      	var tooltip = el.nextElementSibling;
+      	var tooltipDisplay = tooltip.style.display;
+      	if(tooltipDisplay == 'none'){
+      		var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+      		for(i=0; i<allTooltip.length; i++){
+      			allTooltip[i].style.display='none';
+      		}
+      		tooltip.style.display = 'block';
+      	}else{
+      		tooltip.style.display='none';
+      	}
+      }
+      </script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'f486d65fc926bbbffcf69f3c05c87a7e29d133e129780bb6477a36f250b225151d7539d063f42e38e0f580ec97c93f6c', values:{},ready:function(){}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.eu/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads389766000000309016']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads389766000000309016']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads389766000000309016']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+      	<!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.eu/crm/WebFormAnalyticsServeServlet?rid=4c430a94b7ceda87722607203540468f4290a5182e389d521c50e1e350559763gidf58bc6e40d7138940b0823da2afe9498fff245b3c69ab5177f0102612951e10bgidd5d4836131045889aacd8ee89fe126degidc4408f450319003e0c12e54df63a8632'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+{{ end }}
