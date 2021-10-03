@@ -107,6 +107,24 @@
   </div>
 </section>
 
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div>
+          <h3>Online Bookings</h3>
+          <p>Schedule a free 20-minute initial consultation or book and pay for a therapy session online using the button, below.</p>
+          <a class="btn btn-secondary mr-3 btn-zoom"
+          href="{{ .Site.Params.bookingLink | absURL }}">Book an appointment</a>
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="contact-form">
   <div class="container">
     <div class="row">
@@ -135,7 +153,7 @@
               <div class="form-check small">
                 <input type="checkbox" class="form-check-input" name="agreement" id="aggrement" required />
                 <label class="form-check-label" for="aggrement">
-                  I agree that my submitted data is being collected and
+                  I agree to my submitted data being collected and
                   stored.</label>
               </div>
             </div>
@@ -184,7 +202,7 @@
         {{ $map := .Site.Params.map }}
         <div id="map" data-lat={{ $map.latitude }} data-long={{ $map.longitude }} data-pin={{ $map.pinImage | absURL }}>
         </div>
-      </div>
+      </div>      
     </div>
   </div>
 </section>

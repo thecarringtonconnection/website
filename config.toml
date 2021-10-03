@@ -53,6 +53,7 @@ weight = 2
 
 [params]
 blogPageURL = "blog"
+bookingLink = "https://thecarringtonconnection.zohobookings.eu/#/customer/thecarringtonconnection"
 contactLink = "contact"
 copyright = "All right reserved © The Carrington Connection 2021"
 footerLogo = "images/contact/tcc-widget-logo.svg"
@@ -62,7 +63,7 @@ logo = "images/site-navigation/tcc_logo_transparent.svg"
 
 [params.address]
 address = "Grove Park, Lewisham, SE12"
-address2 = "Clapham, South West London"
+address2 = "Clapham, SW4 (from December '21)"
 email = "mike@thecarringtonconnection.co.uk"
 openingHours = "Open from 8am to 9pm"
 openingHours2 = "(Monday to Friday)"
