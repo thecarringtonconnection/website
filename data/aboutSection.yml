@@ -3,23 +3,6 @@ enable: true
 topTitle: About
 title: >
   ## Mike Carrington
-
-  (He/Him)
 content: >
-  #### Integrative Counsellor and Psychotherapist
-
-  I am an integrative counsellor and psychotherapist, which involves working with a variety of therapeutic approaches,
-  such as Person-Centred, Psychodynamic, Existential, and CBT, and combining them to suit the needs of each individual client.
-
-
-  As a gay man and LGBTQIA+ counsellor, I am passionate about supporting LGBTQIA+ adults on their journal to positive mental health.
-
-
-  I am a registered member of the British Association for Counselling and Psychotherapy (BACP) and work in accordance with their
-  Ethical Framework. This helps to ensure safe, ethical and professional practice and to make sure that the client is
-  constantly at the heart of my work.
-button1Name: Contact me
-button2Name: Services
-button1Target: contact
-button2Target: "#service"
-image: images/about/about-img.jpg
+  Please note that the counselling room is on the first floor and is only accessible by stairs.
+image: images/about/office.jpg

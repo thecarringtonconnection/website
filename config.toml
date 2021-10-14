@@ -21,17 +21,13 @@ name = "Fees"
 url = "#fees"
 weight = 4
 [[menu.main]]
-name = "FAQs"
-url = "faq"
-weight = 5
-[[menu.main]]
 name = "Testimonials"
 url = "#testimonials"
-weight = 6
+weight = 5
 [[menu.main]]
 name = "Contact"
 url = "contact"
-weight = 7
+weight = 6
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -44,11 +40,11 @@ url = "faq"
 weight = 4
 [[menu.sitemap]]
 name = "Privacy Policy"
-url = "#"
+url = "privacy"
 weight = 3
 [[menu.sitemap]]
-name = "Latest Article"
-url = "#"
+name = "Contact"
+url = "contact"
 weight = 2
 
 [params]
@@ -63,7 +59,7 @@ logo = "images/site-navigation/tcc_logo_transparent.svg"
 
 [params.address]
 address = "Grove Park, Lewisham, SE12"
-address2 = "Clapham, SW4 (from December '21)"
+address2 = "Clapham, SW4 (from January '22)"
 email = "mike@thecarringtonconnection.co.uk"
 openingHours = "Open from 8am to 9pm"
 openingHours2 = "(Monday to Friday)"
