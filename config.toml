@@ -35,10 +35,6 @@ name = "About"
 url = "#resume"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Asked Questions"
-url = "faq"
-weight = 4
-[[menu.sitemap]]
 name = "Privacy Policy"
 url = "privacy"
 weight = 3

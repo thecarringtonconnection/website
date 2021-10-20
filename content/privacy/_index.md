@@ -176,14 +176,40 @@ content: >
 
         | **Purpose/Activity**      | **Type of data** | **Lawful basis for processing including basis of legitimate interest** |
         | ----------- | ----------- | ----------- |
-        | To register you as a new customer                                        | (a) Identity    | Performance of a contract with you     |
-        |                                                                          | (b) Contact     |                                        |
-        | To provide our services and to process and deliver any orders including: | (a) Identity    | (a) Performance of a contract with you |
-        | (a) provide our services to you                                          | (b) Contact     | (b) Necessary for our legitimate interests (to recover debts due to us) |
-        | (b) Manage payments, fees and charges                                    | (c) Financial   | (c) Explicit consent (in the case of Sensitive Data) |
-        | (c) Collect and recover money owed to us                                 | (d) Transaction |                                        |
-        |                                                                          | (e) Marketing and Communications |                       |
-        |                                                                          | (f) Sensitive Data               |                       |        
+        | To register you as a new customer                                          | (a) Identity    | Performance of a contract with you     |
+        |                                                                            | (b) Contact     |                                        |
+        | To provide our services and to process and deliver any orders including:   | (a) Identity    | (a) Performance of a contract with you |
+        | (a) provide our services to you                                            | (b) Contact     | (b) Necessary for our legitimate interests (to recover debts due to us) |
+        | (b) Manage payments, fees and charges                                      | (c) Financial   | (c) Explicit consent (in the case of Sensitive Data) |
+        | (c) Collect and recover money owed to us                                   | (d) Transaction |                                        |
+        |                                                                            | (e) Marketing and Communications |                       |
+        |                                                                            | (f) Sensitive Data               |                       |
+        | To manage our relationship with you which will include:                    | (a) Identity                     | (a) Performance of a contract with you |
+        | (a) Notifying you about changes to our terms or privacy policy             | (b) Contact                      | (b) Necessary to comply with a legal obligation |
+        | (b) Asking you to leave a review or take a survey                          | (c) Profile                      | (c) Necessary for our legitimate interests (to keep our records updated and to study how customers use our products/services) |
+        |                                                                            | (d) Marketing and Communications |                       |
+        | To enable you to partake in a prize draw, competition or complete a survey | (a) Identity                     | (a) Performance of a contract with you |
+        |                                                                            | (b) Contact                      | (b) Necessary for our legitimate interests (to study how customers use our products/services, to develop them and grow our business)  |
+        |                                                                            | (c) Profile                      |                        |
+        |                                                                            | (d) Usage                        |                        |
+        |                                                                            | (e) Marketing and Communications |                        |
+        | To administer and protect our business and this website (including troubleshooting, data analysis, testing, system maintenance, support, reporting and hosting of data) | (a) Identity                     | (a) Necessary for our legitimate interests (for running our business, provision of administration and IT services, network security, to prevent fraud and in the context of a business reorganisation or group restructuring exercise) |
+        |                                                                            | (b) Contact                      | (b) Necessary to comply with a legal obligation |
+        |                                                                            | (c) Technical                    |                        |
+        | To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you | (a) Identity | Necessary for our legitimate interests (to study how customers use our products/services, to develop them, to grow our business and to inform our marketing strategy) |
+        |                                                                            | (b) Contact                      |                        |
+        |                                                                            | (c) Profile                      |                        |
+        |                                                                            | (d) Usage                        |                        |
+        |                                                                            | (e) Marketing and Communications |                        |
+        |                                                                            | (f) Technical                    |                        |
+        | To use data analytics to improve our website, products/services, marketing, customer relationships and experiences | (a) Technical | Necessary for our legitimate interests (to define types of customers for our products and services, to keep our website updated and relevant, to develop our business and to inform our marketing strategy) |
+        |                                                                            | (b) Usage                        |                        |
+        | To make suggestions and recommendations to you about goods or services that may be of interest to you | (a) Identity | Necessary for our legitimate interests (to develop our products/services and grow our business) |
+        |                                                                            | (b) Contact                      |                        |
+        |                                                                            | (c) Technical                    |                        |
+        |                                                                            | (d) Usage                        |                        |
+        |                                                                            | (e) Profile                      |                        |
+        |                                                                            | (f) Marketing and Communications |                        |
 
 
         ###### Marketing
