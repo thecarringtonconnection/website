@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://thecarringtonconnection.github.io/website/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
