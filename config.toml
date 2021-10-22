@@ -1,4 +1,6 @@
 baseURL = "https://thecarringtonconnection.github.io/website/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
