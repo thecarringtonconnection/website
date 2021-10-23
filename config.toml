@@ -1,4 +1,4 @@
-baseURL = "https://thecarringtonconnection.co.uk"
+baseURL = "https://www.thecarringtonconnection.co.uk"
 relativeURLs = true
 canonifyURLs = true
 languageCode = "en-us"
