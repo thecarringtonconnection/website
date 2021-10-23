@@ -1,4 +1,4 @@
-baseURL = "https://www.thecarringtonconnection.co.uk"
+baseURL = "https://www.thecarringtonconnection.co.uk/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
