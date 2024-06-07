@@ -47,7 +47,7 @@ content: >
 
         Email address: info@thecarringtonconnection.co.uk
 
-        Postal address: The Carrington Connection, Kemp House, 152-160 City Road, London EC1V 2NX
+        Postal address: The Carrington Connection, 124 City Road, London EC1V 2NX
 
 
         You have the right to make a complaint at any time to the Information Commissioner's Office (ICO), the UK supervisory authority for data protection issues (www.ico.org.uk). We would, however, appreciate the chance to deal with your concerns before you approach the ICO so please contact us in the first instance.
@@ -56,7 +56,7 @@ content: >
         ###### Changes to the privacy policy and your duty to inform us of changes
 
 
-        We keep our privacy policy under regular review. This version was last updated in October 2021.
+        We keep our privacy policy under regular review. This version was last updated in June 2024.
 
 
         It is important that the personal data we hold about you is accurate and current. Please keep us informed if your personal data changes during your relationship with us.
