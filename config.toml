@@ -63,8 +63,8 @@ phone = "07925 844 622"
 
 [params.map]
 APIkey = "AIzaSyCzZB3ARsmctVTMoYZ6EuQjZ1xK4peirDg"
-latitude = "51.438358"
-longitude = "0.017530"
+latitude = "53.160639"
+longitude = "-1.186858"
 pinImage = "images/pin.png"
 
 # Social icons
