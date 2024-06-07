@@ -54,8 +54,8 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/tcc_logo_transparent.svg"
 
 [params.address]
-address = "Grove Park, Lewisham, SE12"
-address2 = "Clapham, SW4 (Date TBC)"
+address = "Mansfield, Nottinghamsire"
+address2 = "Grove Park, Lewisham, SE12"
 email = "mike@thecarringtonconnection.co.uk"
 openingHours = "Open from 8am to 9pm"
 openingHours2 = "(Monday to Friday)"
