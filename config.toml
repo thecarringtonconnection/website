@@ -1,6 +1,6 @@
 baseURL = "https://www.thecarringtonconnection.co.uk/"
 languageCode = "en-us"
-paginate = 6
+pagerSize = 6
 theme = "portio"
 title = "The Carrington Connection"
 # Main Menu
